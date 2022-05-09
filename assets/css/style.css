@@ -2982,3 +2982,22 @@ input:-internal-autofill-selected {
   left: -40px;
   border-radius: 4px 0px 0px 4px;
 }
+
+/*  */
+.skills {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+}
+.skills-box {
+  width: 10rem;
+  min-height: 15rem;
+  margin: 1rem 2.5rem;
+  text-align: center;
+}
+.skill-name {
+  color: var(--green-dark);
+  padding: 0.25rem;
+}
